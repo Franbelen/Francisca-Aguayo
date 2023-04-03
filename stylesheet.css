@@ -1,65 +1,134 @@
-/* global styles */
+/* Global Styles */
+
+/* Apply Roboto font to all elements */
 * {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Apply background color gradient */
+  body {
+    background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #8B00FF);
     color: #333;
-    background-color: #f9f9f9;
-}
-
-a {
-    text-decoration: none;
-    color: #ff6b6b;
-}
-
-a:hover {
-    color: #c44569;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    margin: 0;
-    line-height: 1.2;
-}
-
-h1 {
-    font-size: 3em;
-    color: #ff6b6b;
-}
-
-h2 {
-    font-size: 2.5em;
-    color: #ff9f43;
-}
-
-h3 {
-    font-size: 2em;
-    color: #ffcc29;
-}
-
-h4 {
-    font-size: 1.5em;
-    color: #4cb050;
-}
-
-h5 {
-    font-size: 1.25em;
-    color: #0097e6;
-}
-
-h6 {
-    font-size: 1em;
-    color: #8c7ae6;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
+  }
+  
+  /* Apply rainbow colors to headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h1 {
+    color: #FF0000;
+  }
+  
+  h2 {
+    color: #FF7F00;
+  }
+  
+  h3 {
+    color: #FFFF00;
+  }
+  
+  h4 {
+    color: #00FF00;
+  }
+  
+  h5 {
+    color: #0000FF;
+  }
+  
+  h6 {
+    color: #8B00FF;
+  }
+  
+  /* Apply rainbow colors to links */
+  a {
+    color: #FF0000;
+  }
+  
+  a:hover {
+    color: #FF7F00;
+  }
+  
+  /* Apply rainbow colors to buttons */
+  button {
+    background-color: #e771ff;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  
+  button:hover {
+    background-color: #FF7F00;
+  }
+  
+  /* Apply rainbow colors to form elements */
+  label {
+    color: #69d5ff;
+  }
+  
+  input[type=text], input[type=email], textarea {
+    border: 1px solid #53f0ce;
+  }
+  
+  input[type=submit] {
+    background-color: #FF0000;
+    color: #FFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FF7F00;
+  }
+  
+  /* Apply rainbow colors to table headers */
+  th {
+    color: #FF0000;
+  }
+  
+  /* Apply rainbow colors to table rows */
+  tr:nth-child(even) {
+    background-color: #FF7F00;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #FFFF00;
+  }
+  
+  /* Apply rainbow colors to blockquote */
+  blockquote {
+    color: #FF0000;
+    border-left: 3px solid #FF0000;
+    margin: 1.5rem 0;
+    padding-left: 1rem;
+  }
+  
+  /* Apply rainbow colors to code block */
+  pre {
+    background-color: #FFFF00;
+    color: #333;
+    padding: 1rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    border: 1px solid #FF0000;
+  }
+  
+  /* Apply rainbow colors to code inline */
+  code {
+    color: #FF0000;
+    font-size: 0.9rem;
+  }
+  
+  /* Apply rainbow colors to list items */
+  ul li:before {
+    color: #FF0000;
+  }
+  
+  ol li:before {
+    color: #FF0000;
+  }
+  
