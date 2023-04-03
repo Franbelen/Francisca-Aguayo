@@ -7,7 +7,7 @@
   
   /* Apply background color gradient */
   body {
-    background: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #8B00FF);
+    background: linear-gradient(to right, #fceabb, #ffc48c, #ff9a9e, #ff6cce, #ce9efa, #87d5fa, #7fe8f0,#7ff0b7);
     color: #333;
   }
   
@@ -19,36 +19,36 @@
   }
   
   h1 {
-    color: #FF0000;
+    color: #ff9a9e;
   }
   
   h2 {
-    color: #FF7F00;
+    color:#ffc48c;
   }
   
   h3 {
-    color: #FFFF00;
+    color: #fceabb;
   }
   
   h4 {
-    color: #00FF00;
+    color: #7ff0ca;
   }
   
   h5 {
-    color: #0000FF;
+    color: #87d5fa;
   }
   
   h6 {
-    color: #8B00FF;
+    color: #ce9efa;
   }
   
   /* Apply rainbow colors to links */
   a {
-    color: #FF0000;
+    color: #ff9a9e;
   }
   
   a:hover {
-    color: #FF7F00;
+    color:#ffc48c;
   }
   
   /* Apply rainbow colors to buttons */
@@ -61,7 +61,7 @@
   }
   
   button:hover {
-    background-color: #FF7F00;
+    background-color:#ffc48c;
   }
   
   /* Apply rainbow colors to form elements */
@@ -74,7 +74,7 @@
   }
   
   input[type=submit] {
-    background-color: #FF0000;
+    background-color: #ff9a9e;
     color: #FFF;
     border: none;
     padding: 0.5rem 1rem;
@@ -82,53 +82,53 @@
   }
   
   input[type=submit]:hover {
-    background-color: #FF7F00;
+    background-color:#ffc48c;
   }
   
   /* Apply rainbow colors to table headers */
   th {
-    color: #FF0000;
+    color: #ff9a9e;
   }
   
   /* Apply rainbow colors to table rows */
   tr:nth-child(even) {
-    background-color: #FF7F00;
+    background-color:#ffc48c;
   }
   
   tr:nth-child(odd) {
-    background-color: #FFFF00;
+    background-color: #fceabb;
   }
   
   /* Apply rainbow colors to blockquote */
   blockquote {
-    color: #FF0000;
-    border-left: 3px solid #FF0000;
+    color: #ff9a9e;
+    border-left: 3px solid #ff9a9e;
     margin: 1.5rem 0;
     padding-left: 1rem;
   }
   
   /* Apply rainbow colors to code block */
   pre {
-    background-color: #FFFF00;
+    background-color: #fceabb;
     color: #333;
     padding: 1rem;
     overflow: auto;
     font-size: 0.9rem;
-    border: 1px solid #FF0000;
+    border: 1px solid #ff9a9e;
   }
   
   /* Apply rainbow colors to code inline */
   code {
-    color: #FF0000;
+    color: #ff9a9e;
     font-size: 0.9rem;
   }
   
   /* Apply rainbow colors to list items */
   ul li:before {
-    color: #FF0000;
+    color: #ff9a9e;
   }
   
   ol li:before {
-    color: #FF0000;
+    color: #ff9a9e;
   }
   
