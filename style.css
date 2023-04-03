@@ -18,30 +18,16 @@
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
   }
+     
+  h1 {color: #3aecb1;}
+  h2 {color: #47b3e6;}
+  h5 {color: #a963eb;}
+  h4 {color:#e055b2;}
+  h5 {color: #eb7579;}
   
-  h1 {
-    color: #ff9a9e;
-  }
+
   
-  h2 {
-    color:#ffc48c;
-  }
   
-  h3 {
-    color: #fceabb;
-  }
-  
-  h4 {
-    color: #7ff0ca;
-  }
-  
-  h5 {
-    color: #87d5fa;
-  }
-  
-  h6 {
-    color: #ce9efa;
-  }
   
   /* Apply rainbow colors to links */
   a {
