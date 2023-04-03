@@ -1,0 +1,3 @@
+ rainbow:
+ 
+ #fceabb, #ffc48c, #ff9a9e, #ff6cce, #ce9efa, #87d5fa, #7fe8f0,#7ff0b7

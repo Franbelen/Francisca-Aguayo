@@ -4,8 +4,14 @@
 * {
     font-family: 'Roboto', sans-serif;
   }
-
-
+  
+  /* Apply background color gradient */
+  
+  body {
+    background: linear-gradient(to right, #faf9c9, #fccb9d, #fab0b3, #ff9dde, #ddbbfd, #aee5ff, #b4faff,#b6ffda);
+    color: #333;
+  }
+  
   /* Apply rainbow colors to headings */
   h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
@@ -69,7 +75,7 @@
   }
   
   input[type=submit] {
-    background-color: #e29aff;
+    background-color: #ff9a9e;
     color: #FFF;
     border: none;
     padding: 0.5rem 1rem;
