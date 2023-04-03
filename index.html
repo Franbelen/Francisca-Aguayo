@@ -1,48 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Jane Doe's Personal Information and CV</title>
+	<title>Francisca Aguayo - Student in Math</title>
+	
+	<style>
+		body {
+			background: linear-gradient(to bottom right, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff);
+		}
+	</style>
 </head>
 <body>
 	<header>
-		<h1>Jane Doe's Personal Information and CV</h1>
+		<div class="container">
+			<h1>Francisca Aguayo</h1>
+			<h2>Student in Math</h2>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#achievements">Achievements</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
-	
-	<section>
-		<h2>Personal Information</h2>
-		<ul>
-			<li><strong>Name:</strong> Jane Doe</li>
-			<li><strong>Email:</strong> jane.doe@email.com</li>
-			<li><strong>Phone:</strong> 123-456-7890</li>
-			<li><strong>Website:</strong> www.janedoe.com</li>
-			<li><strong>Location:</strong> New York City, NY</li>
-		</ul>
-	</section>
 
-	<section>
-		<h2>CV</h2>
-		<h3>Education</h3>
-		<ul>
-			<li><strong>PhD in Mathematics</strong>, New York University, 2020</li>
-			<li><strong>Master's Degree in Mathematics</strong>, University of California, Los Angeles, 2015</li>
-			<li><strong>Bachelor's Degree in Mathematics</strong>, Massachusetts Institute of Technology, 2013</li>
-		</ul>
+	<main>
+		<section id="about">
+			<div class="container">
+				<h2>About Me</h2>
+				<p></p>
+			</div>
+		</section>
 
-		<h3>Professional Experience</h3>
-		<ul>
-			<li><strong>Assistant Professor of Mathematics</strong>, Columbia University, 2020-present</li>
-			<li><strong>Postdoctoral Researcher</strong>, Stanford University, 2018-2020</li>
-			<li><strong>Teaching Assistant</strong>, New York University, 2016-2018</li>
-		</ul>
+		<section id="education">
+			<div class="container">
+				<h2>Education</h2>
+				<ul>
+					<li><strong>Master of Science in Mathematics</strong> - XYZ University, Expected graduation: May 2024</li>
+					<li><strong>Bachelor of Science in Mathematics</strong> - ABC University, May 2022</li>
+				</ul>
+			</div>
+		</section>
 
-		<h3>Publications</h3>
-		<ul>
-			<li>Doe, J. (2022). "A new method for solving differential equations." Journal of Mathematics, 10(2), 20-30.</li>
-			<li>Doe, J., Smith, A., &amp; Johnson, B. (2021). "Applications of algebraic geometry in mathematical physics." Mathematical Proceedings, 25(3), 40-50.</li>
-			<li>Doe, J., &amp; Brown, C. (2020). "An introduction to quantum computing." Mathematics Today, 15(1), 10-20.</li>
-		</ul>
-	</section>
+		<section id="achievements">
+			<div class="container">
+				<h2>Achievements</h2>
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="projects">
+			<div class="container">
+				<h2>Projects</h2>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<h2>Contact Me</h2>
+				<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" required>
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required>
+
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" required></textarea>
+
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
+
