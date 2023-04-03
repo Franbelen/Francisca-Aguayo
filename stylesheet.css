@@ -15,11 +15,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #6b5b95;
+    color: #ff6b6b;
 }
 
 a:hover {
-    color: #ff7b25;
+    color: #c44569;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,32 +31,32 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 3em;
-    color: #fe5f55;
+    color: #ff6b6b;
 }
 
 h2 {
     font-size: 2.5em;
-    color: #ff7b25;
+    color: #ff9f43;
 }
 
 h3 {
     font-size: 2em;
-    color: #ffa600;
+    color: #ffcc29;
 }
 
 h4 {
     font-size: 1.5em;
-    color: #bc5090;
+    color: #4cb050;
 }
 
 h5 {
     font-size: 1.25em;
-    color: #58508d;
+    color: #0097e6;
 }
 
 h6 {
     font-size: 1em;
-    color: #003f5c;
+    color: #8c7ae6;
 }
 
 img {
